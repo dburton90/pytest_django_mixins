@@ -1,0 +1,80 @@
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### SublimeText ###
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+
+# sftp configuration file
+sftp-config.json
+
+# Basics
+*.py[cod]
+__pycache__
+
+# Logs
+logs
+*.log
+pip-log.txt
+npm-debug.log*
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
+#pytest
+.cache
+
+# Translations
+*.mo
+*.pot
+
+# Pycharm
+.idea/*
+
+
+# Vim
+
+*~
+*.swp
+*.swo
+.ropeproject
+
+# npm
+node_modules/
+azp/static/js/bundle.js
+
+# Compass
+.sass-cache
+
+# virtual environments
+.env
+.venv
+
+# User-uploaded media
+azp/media/
+
+# generated files
+azp/static/js/all.min.js
+azp/static/js/all.min.js.map
+azp/static/css/project.css
+azp/static/css/project.min.css
+
+staticfiles
+
+# bootstrap library
+azp/static/sass/bootstrap
+azp/static/sass/font-awsome

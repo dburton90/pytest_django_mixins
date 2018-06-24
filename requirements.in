@@ -1,0 +1,4 @@
+-e .
+pytest_matrix
+pytest-django
+twine
