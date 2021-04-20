@@ -5,22 +5,52 @@
 #    pip-compile --output-file requirements.txt requirements.in
 #
 -e .
-atomicwrites==1.1.5       # via pytest
-attrs==18.1.0             # via pytest
-certifi==2018.4.16        # via requests
-chardet==3.0.4            # via requests
-idna==2.7                 # via requests
-more-itertools==4.2.0     # via pytest
-pkginfo==1.4.2            # via twine
-pluggy==0.6.0             # via pytest
-py==1.5.3                 # via pytest
+    # via -r requirements.in
+atomicwrites==1.1.5
+    # via pytest
+attrs==18.1.0
+    # via pytest
+certifi==2018.4.16
+    # via requests
+chardet==3.0.4
+    # via requests
+idna==2.7
+    # via requests
+more-itertools==4.2.0
+    # via pytest
+pkginfo==1.4.2
+    # via twine
+pluggy==0.6.0
+    # via pytest
+py==1.10.0
+    # via pytest
 pytest-django==3.3.2
-pytest-lazy-fixture==0.4.0  # via pytest-matrix
+    # via -r requirements.in
+pytest-lazy-fixture==0.4.0
+    # via pytest-matrix
 pytest-matrix==0.6
-pytest==3.6.2             # via pytest-django, pytest-lazy-fixture, pytest-matrix
-requests-toolbelt==0.8.0  # via twine
-requests==2.19.1          # via requests-toolbelt, twine
-six==1.11.0               # via more-itertools, pytest
-tqdm==4.23.4              # via twine
+    # via
+    #   -r requirements.in
+    #   sanitized-package
+pytest==3.6.2
+    # via
+    #   pytest-django
+    #   pytest-lazy-fixture
+    #   pytest-matrix
+    #   sanitized-package
+requests-toolbelt==0.8.0
+    # via twine
+requests==2.19.1
+    # via
+    #   requests-toolbelt
+    #   twine
+six==1.11.0
+    # via
+    #   more-itertools
+    #   pytest
+tqdm==4.23.4
+    # via twine
 twine==1.11.0
-urllib3==1.23             # via requests
+    # via -r requirements.in
+urllib3==1.23
+    # via requests
